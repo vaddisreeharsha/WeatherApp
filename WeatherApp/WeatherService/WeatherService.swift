@@ -11,6 +11,7 @@ class WeatherService {
     let service: NetworkService
     init(service: NetworkService = NetworkService()) {
         self.service = service
+        print(service.apiHandler.testUrl)
     }
 
     func getWeatherDetailsBy(lat: Double, lon: Double, tempUnit: TempUnit = .celsius, completion: @escaping (Result<WeatherModel, ApiError>) -> Void) {
@@ -21,8 +22,6 @@ class WeatherService {
             return
         }
         urlComponents.queryItems = weatherComponents.queryItems
-
-        let service = NetworkService()
 
         guard let url = urlComponents.url else {
             completion(.failure(ApiError.badUrl))

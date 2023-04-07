@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -121.4949,
+        "lat": 38.577
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 62.64,
+        "feels_like": 60.01,
+        "temp_min": 59.34,
+        "temp_max": 64.78,
+        "pressure": 1024,
+        "humidity": 30
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5.01,
+        "deg": 278,
+        "gust": 7
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1680733317,
+    "sys": {
+        "type": 2,
+        "id": 2006750,
+        "country": "US",
+        "sunrise": 1680702282,
+        "sunset": 1680748338
+    },
+    "timezone": -25200,
+    "id": 5389489,
+    "name": "Sacramento",
+    "cod": 200
+}
