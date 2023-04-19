@@ -141,10 +141,10 @@
 		E1D3149429D62EBC006DA01A /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				E1D314DD29DE1910006DA01A /* WeatherScreen */,
 				E1D314D829DDF01C006DA01A /* PlaceSearch */,
 				E1D314D129D64CEF006DA01A /* WeatherService */,
 				E1D314C629D6353E006DA01A /* Network */,
-				E1D314DD29DE1910006DA01A /* WeatherScreen */,
 				E1D3149529D62EBC006DA01A /* AppDelegate.swift */,
 				E1D3149729D62EBC006DA01A /* SceneDelegate.swift */,
 				E1D314C729D63576006DA01A /* Constants.swift */,

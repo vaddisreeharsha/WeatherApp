@@ -8,6 +8,7 @@
 import Foundation
 import MapKit
 
+/// Handle serch place protocal : helps to get the selected protocal 
 protocol HandleSearchPlace {
     func selectedPlace(place: MKMapItem)
 }
